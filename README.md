@@ -3,10 +3,12 @@ https://github.com/WebDevSimplified/typescript-todo-list
 
 To open the app:
 
-1. Download the file. 
+1. Download the zip file. 
 
-2. Open the folder in VS Code.
+2. Unzip the file. Open VS code and open the folder in VS Code.
 
-3. In the terminal, within the root folder, type npm start
+3. In the VS Code terminal, within the root folder, type: npm install --save-dev snowpack
 
-4. The app should open in your browser
+4. Finally type: npm start
+
+5. The app should open in your browser
