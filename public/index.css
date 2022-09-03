@@ -1,14 +1,29 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
-}
+.nobull {
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: "Inter", sans-serif;
+  /* below from member Blowsie on stackoverflow */
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none;
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none; 
+ }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
-}
+
+ .list-format {
+     display: block;
+     text-align: left;
+     margin:auto;
+     max-width: 300px;
+ }
+
+ li:hover {
+    text-decoration: line-through !important;
+ }
+ 
+ form {
+     width: 100%;
+ }
+
